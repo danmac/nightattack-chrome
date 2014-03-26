@@ -1,0 +1,21 @@
+{
+	"name":"Night Attack",
+	"description":"Night Attack",
+	"version":"0.4.1",
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+    "icons": { "128":"nalogo-128.png" },
+    "permissions": [
+        "webview",
+        "system.display",
+        "fullscreen",
+        "http://nightattack.tv/"
+    ],
+    "optional_permissions": [
+        "http://*/",
+        "https://*/"
+    ]
+}
